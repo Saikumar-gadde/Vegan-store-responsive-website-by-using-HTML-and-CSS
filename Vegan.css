@@ -1,0 +1,884 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+/* .section1-container{
+    display: flex;
+    justify-content: space-between;
+} */
+.postion {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100vw;
+    height: 12%;
+}
+
+.nav-bar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-bar li {
+    margin-left: 20px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.btn-BuyNow {
+    background-color: #aad236;
+    border: none;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.sectio-2-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.5;
+}
+
+.section-2-container {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-2-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    line-height: 1.5;
+}
+
+.step-1 {
+    background-color: #5acda6;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-logo-1 {
+    font-size: 96px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.step-logo-2 {
+    font-size: 96px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-heading-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-paragraph-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.step-logo-3 {
+    font-size: 96px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-heading-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-paragraph-3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.step-logo-4 {
+    font-size: 96px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.step-1-heading-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 2;
+}
+
+.step-1-paragraph-4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.step-2 {
+    background-color: #91ac41;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-3 {
+    background-color: #e4b476;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-4 {
+    background-color: #f69dad;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-step-3 {
+    display: flex;
+}
+
+.our-vegan-store-section {
+    background-color: #f7eee2;
+    height: 120vh;
+    text-align: center;
+    padding: 80px;
+}
+
+.vegan-heading-section {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.freshfood {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+    font-style: italic;
+}
+
+.vegan-paragraph-section {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.cam-icon {
+    background-color: #e3b375;
+    font-size: 60px;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    padding-top: 42px;
+    border-radius: 50%;
+
+}
+
+.cam-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+
+}
+
+.cam-paragraph {
+    color: #8b8b99;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+}
+
+.camera-image {
+    width: 230px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.top-headings {
+    text-align: center;
+    margin: 80px;
+    padding: 30px;
+}
+
+.card-1 {
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+}
+
+.card-2 {
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+}
+
+.card-3 {
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+}
+
+
+
+
+
+
+.pic-1 {
+    background-color: #f5f6fb;
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.card-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: Italic;
+    color: #8b8b99;
+    padding: 25px;
+}
+
+.person-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+
+}
+
+.person-cook {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #8b8b99;
+    font-style: Italic;
+}
+
+.testimonial-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial-section {
+    background-color: white;
+    height: 120vh;
+}
+
+.left-pic {
+    width: 100%;
+    height: 90vh;
+}
+
+.straberry-pic {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    height: 90vh;
+    background-position: right;
+    background-size: cover;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: Helvetica, sans-serif;
+}
+
+.follow-description {
+    font-size: 20px;
+    color: grey;
+    margin-top: 30px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.red-fruit-pic {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.email {
+    border: 1px solid grey;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+    margin-top: 25px;
+    outline: none;
+}
+
+.btn-sub {
+    border: none;
+    background-color: #f69dad;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: -30%;
+}
+
+.paragraph {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.number {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(30, 32, 31);
+    font-family: cursive;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(248, 245, 245);
+    height: 40vh;
+    padding-top: 80px;
+}
+
+hr {
+    background-color: red;
+    color: red;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.video {
+    width: 800px;
+    height: 800px;
+    margin-bottom: 0px;
+}
+
+.em-head {
+    color: grey;
+    font-size: 45px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+}
+
+.embed {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-us {
+    color: #91ac41;
+    font-size: 15px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+    font-style: italic;
+}
+
+.add-heading {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+.Add-paragraph {
+    font-size: 20px;
+    color: grey;
+    letter-spacing: 1.5px;
+    width: 350px;
+    line-height: -4px;
+    /* margin-top: 15px;
+     */
+    padding: 10px;
+}
+
+.search-1 {
+    border: none;
+}
+
+.btn-btn {
+    background-color: #aad236;
+    border: none;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.adress-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.foot-1 {
+    color: white;
+    font-size: 12px;
+    padding: 2.5%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer-section {
+    margin-top: 25px;
+    background-color: rgb(44, 40, 40);
+    height: 80px;
+}
+
+.btn-sub:hover {
+    border: 2px solid #f69dad;
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+
+
+    .logo {
+        margin: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-bar {
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        list-style: none;
+        font-size: 8px;
+    }
+
+    .nav-bar li {
+        margin-left: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .btn-BuyNow {
+        background-color: #aad236;
+        border: none;
+        color: #fff;
+        width: 80px;
+        height: 40px;
+        border-radius: 8px;
+        margin-left: 10px;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+
+    .section-step-3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .step-1 {
+        background-color: #5acda6;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .step-2 {
+        background-color: #91ac41;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .step-3 {
+        background-color: #e4b476;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .step-4 {
+        background-color: #f69dad;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .our-vegan-store-section {
+        background-color: #f7eee2;
+        padding-top: 20px;
+        height: 165vh;
+    }
+
+    .vegan-heading-section {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .freshfood {
+        color: #91ac41;
+        font-size: 15px;
+        font-family: 'Caveat', cursive;
+        margin-top: 35px;
+        font-style: italic;
+    }
+
+    .vegan-paragraph-section {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #8b8b99;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .image-section {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cam-icon {
+        background-color: #e3b375;
+        font-size: 40px;
+        color: #fff;
+        width: 100px;
+        height: 100px;
+        padding-top: 30px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .cam-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .cam-paragraph {
+        color: #8b8b99;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 18px;
+    }
+
+    .testimonial-card {
+        display: block;
+        margin-bottom: 100vh;
+    }
+
+    .card-1 {
+        background-color: #f5f6fb;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-2 {
+        background-color: #f5f6fb;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-3 {
+        background-color: #f5f6fb;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-pic {
+        margin-top: 600px;
+        width: 100%;
+        height: 50vh;
+    }
+
+
+
+    .straberry-pic {
+        background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .follow-description {
+        font-size: 20px;
+        color: grey;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .red-fruit-pic {
+        display: block;
+    }
+
+    .email {
+        border: 1px solid grey;
+        width: 55%;
+        height: 50px;
+        font-size: 20px;
+        font-family: "poppins", sans-serif;
+        border-radius: 5px;
+        margin-top: 25px;
+        outline: none;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(248, 245, 245);
+        height: 65vh;
+        padding-top: 30px;
+    }
+
+    .video {
+        width: 100%;
+
+    }
+
+    .em-head {
+        color: grey;
+        font-size: 25px;
+        font-family: "Arial";
+        letter-spacing: 2px;
+    }
+
+    .embed {
+        text-align: center;
+    }
+
+
+
+
+
+
+    .contact-us {
+        color: #91ac41;
+        font-size: 15px;
+        font-family: 'Caveat', cursive;
+        margin: 0;
+        margin-top: 35px;
+        font-style: italic;
+    }
+
+    .add-heading {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        letter-spacing: 2px;
+    }
+
+    .Add-paragraph {
+        font-size: 20px;
+        color: grey;
+        letter-spacing: 1.5px;
+        width: 350px;
+        line-height: -4px;
+        /* margin-top: 15px;
+     */
+        padding-left: 15px;
+    }
+
+    .btn-btn {
+        background-color: #aad236;
+        border: none;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .adress-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .foot-1 {
+        color: white;
+        font-size: 12px;
+        padding: 2.5%;
+        font-family: sans-serif;
+
+    }
+
+    .footer-section {
+        background-color: rgb(44, 40, 40);
+        height: 80px;
+        width: 100%;
+    }
+
+    .email {
+        border: 1px solid grey;
+        width: 350px;
+        height: 50px;
+        font-size: 20px;
+        font-family: "poppins", sans-serif;
+        border-radius: 5px;
+        margin-top: 25px;
+        outline: none;
+        margin-left: 15px;
+    }
+
+}
